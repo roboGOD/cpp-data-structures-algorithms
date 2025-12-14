@@ -23,12 +23,6 @@ const int MOD = 1e9 + 7;
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 
-#ifndef ONLINE_JUDGE
-    #define debug(x) cerr << #x << " = " << x << '\n';
-#else
-    #define debug(x)
-#endif
-
 ll mod_add(ll a, ll b) { return (a + b) % MOD; }
 ll mod_sub(ll a, ll b) { return (a - b + MOD) % MOD; }
 ll mod_mul(ll a, ll b) { return (a * b) % MOD; }
@@ -51,7 +45,7 @@ void read_vec(vector<T>& v, int n) {
 
 
 void solve() {
-    // Write your code here.
+    
 }
 
 
@@ -59,6 +53,7 @@ int main() {
     FAST_IO;
 
     int t = 1;
+    cin >> t;
 
     while (t--) {
         solve();
